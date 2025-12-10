@@ -14,6 +14,19 @@ This repository contains my daily learning and practical tasks during my interns
 - Ran ipconfig command
 - Identified IPv4 address
 - Scanned own system ports
+- 
+ ##day 02
+📌 Today I Learned – Phishing Email Analysis
+
+Learned what phishing emails are and how attackers trick users.
+
+Checked sender’s email address for spoofing.
+
+Learned to inspect email headers for authentication issues (SPF, DKIM, DMARC).
+
+Identified suspicious links and attachments safely.
+
+Noticed urgent or threatening language used to scare recipients.
 
 ## Screenshots
 
