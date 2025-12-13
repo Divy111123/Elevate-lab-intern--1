@@ -1,0 +1,86 @@
+# 🔐 Basic Vulnerability Scan Report
+
+## 📘 Internship Task
+**Task 3: Perform a Basic Vulnerability Scan on Your PC**
+
+This task focuses on identifying common security vulnerabilities in a personal computer using free vulnerability scanning tools.
+
+---
+
+## 🎯 Objective
+To use a free vulnerability scanning tool to identify, analyze, and understand common vulnerabilities present in my system.
+
+---
+
+## 🛠 Tools Used
+- **Tool Name:** OpenVAS Community Edition / Nessus Essentials  
+- **Scan Type:** Full Vulnerability Scan  
+- **Target:** Localhost (127.0.0.1) / Local Machine IP  
+
+---
+
+## ⚙️ System Details
+- **Operating System:** Windows / Linux (CentOS / Ubuntu)  
+- **Architecture:** 64-bit  
+- **Scan Duration:** ~30–60 minutes  
+
+---
+
+## 🔍 Scan Procedure
+1. Installed OpenVAS / Nessus Essentials
+2. Configured scan target as localhost
+3. Selected full vulnerability scan profile
+4. Started the scan and waited for completion
+5. Analyzed vulnerabilities based on severity
+6. Documented critical and high-risk findings
+7. Took screenshots of scan results
+
+---
+
+## 📊 Scan Results Summary
+
+| Severity | Count |
+|--------|-------|
+| Critical | X |
+| High | X |
+| Medium | X |
+| Low | X |
+| Info | X |
+
+*(Replace X with your actual scan results)*
+
+---
+
+## 🚨 Identified Vulnerabilities (Examples)
+
+### 1. Outdated Software Version
+- **Severity:** High  
+- **Description:** Some installed packages were outdated and contained known vulnerabilities.
+- **Impact:** Could allow attackers to exploit known weaknesses.
+- **Mitigation:** Update software to the latest stable versions.
+
+### 2. Open Unnecessary Ports
+- **Severity:** Medium  
+- **Description:** Certain ports were open and not actively used.
+- **Impact:** Increases attack surface.
+- **Mitigation:** Close unused ports or restrict access using firewall rules.
+
+### 3. Weak Security Configuration
+- **Severity:** Low  
+- **Description:** Default or weak configuration settings detected.
+- **Mitigation:** Apply secure configuration best practices.
+
+---
+
+## 🛡 Remediation Steps
+- Updated all outdated packages
+- Disabled unnecessary services
+- Applied system and security updates
+- Configured firewall rules
+
+
+## 📚 Key Concepts Learned
+- Vulnerability Scanning
+- CVSS (Common Vulnerability Scoring System)
+- Risk Assessment
+- False Positives
